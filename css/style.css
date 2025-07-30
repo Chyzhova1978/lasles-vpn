@@ -58,3 +58,134 @@ h2 {
     line-height: 100px;
     color: #0b132a;
 }
+
+.header__btn {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100px;
+    color: #f53855;     
+}
+
+.button {
+    border-radius: 50px;
+    border: 1px solid #f53855;
+    padding: 13px 45px;
+}
+
+/* SECTION LASLES  */
+
+.lasles{
+    position: relative;
+}
+
+.lasles__content {
+    margin-top: 28px;
+    width: 555px;
+}
+
+.lasles__body {
+    display: flex;
+    margin-top: 88.50px;
+}
+
+.lasles__title {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+h1 span {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 50px;   
+    line-height: 70px;
+}
+
+.lasles__subtitle {
+    margin-top: 20px;
+    width: 555px;
+}
+
+p span {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.lasles__btn {
+    margin-top: 50px;
+}
+
+.lasles__btn {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+    background-color: #f53855;
+    padding: 17.5px 77.5px;
+    border-radius: 10px;
+}
+
+.lasless__img{
+    position: absolute;
+    left: 55%;
+    top: 0px;
+    width: 611px;
+    height: 382px;
+}
+
+  /* SECTION STATISTICS */
+.statistics {
+    margin-top: 128px;
+}
+
+.statistics__body {
+    display: flex;
+    justify-content: space-between;
+    padding: 37.21px 90.5px;
+    border-radius: 10px;
+    box-shadow: 0px 16px 32px -6px  rgba(10, 0, 40, 0.053), 0px 8px 16px -3px  rgba(7, 0, 28, 0.087), 0px 4px 8px -1px  rgba(7, 0, 28, 0.081); 
+}
+
+.statistics__cards {
+    display: flex;
+    align-items: center;
+    gap: 36.5px;
+}
+
+.statistics__icon {
+    margin: auto;
+}
+
+.vertical_line {
+    height: 125px;
+    border-radius: 2px;
+    border: 2px solid rgba(238, 239, 242, 1);
+}
+
+.statistics__users {
+    display: flex;
+    flex-direction: column;
+    align-content: center;  
+}
+
+.statistics__users h3 {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.statistics__users p {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
