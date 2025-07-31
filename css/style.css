@@ -189,3 +189,291 @@ p span {
     font-size: 20px;
     line-height: 30px;
 }
+
+/* SECTION FEATURES */
+.features {
+    margin: 95.83px 0 131px;
+}
+
+.features__body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features__content {
+    margin-top: 54.17px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.features__title {
+    width: 383px;
+}
+
+.features__subtitle {
+    width: 427.88px; 
+}
+
+.features__link {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}  
+
+.features__link li {
+    margin-left: 28px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4f5665;
+    position: relative;
+    padding-left: 10.08px;   
+}
+
+.features__link li::before {   
+    content: url(../images/Group1120.svg);
+    top: 2px;
+    left: -30px;   
+    position: absolute;        
+}
+
+/* SECTION PLAN */
+.plan {
+    margin-top: 80.27px;
+}
+
+.plan__title {
+    text-align: center;
+}
+
+.plan__subtitle {
+    margin: 20px auto 0;
+    width: 555px;
+    text-align: center; 
+}
+
+.plan__cards {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan__card img {
+    display: flex;
+    justify-content: center;
+}
+
+.plan__card {
+    padding: 79.63px 63.73px 50px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+.plan__img {
+    display: flex;
+    justify-content: center;
+}
+
+.plan__card-red {
+    padding: 79.63px 63.73px 50px;
+    border: 2px solid #f53855;
+}
+
+.plan__card h4 {
+    margin-top: 30px;
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.plan__card ul {
+    margin-top: 30px;
+}
+
+.plan__link {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    /* width: calc(100% + 25px); */
+    margin-left: 55px;
+}
+
+.plan__link li {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4f5665;
+    position: relative;
+}
+
+.plan__link li::before {
+    content: url(../images/Group\ 1235.svg);
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: -44px;
+    position: absolute;
+}
+
+.plan__free-your h4 {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.plan__free-free {
+    margin-top: 130px;
+}
+
+.plan__free-standard {
+    margin-top: 90px;
+}
+
+.plan__free-prenium {
+    margin-top: 50px;
+}
+
+.plan__free-your span {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #4f5665;
+}
+
+.plan__btn {
+    margin: 20px auto 0;
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #f53855;
+}
+
+.plan__btn button {
+    padding: 13px 62.94px;
+}
+
+.plan__prenium {
+    border-radius: 50px;
+    background-color: #f53855;
+    color: #fff;
+}
+
+/* SECTION NETWORK */
+.network {
+    margin-top: 150px;
+}
+
+.network__title {
+    width: 383.41px;
+    text-align: center;
+    margin: 0 auto 0;
+}
+
+.network__subtitle {
+    width: 555px;
+    text-align: center;
+    margin: 20px auto 0;
+}
+
+.network__map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 155.81px;
+}
+
+.network__services {
+    margin-top: 115px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;     
+}
+
+.customer__body {
+    margin-top: 50px;
+}
+
+.customer__title {
+    width: 447.81px;
+    text-align: center;
+    margin: 0 auto 0;
+}
+
+.customer__subtitle {
+    width: 555px;
+    text-align: center;
+    margin: 20px auto 0;
+}
+
+.customer__cards {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.customer__card {   
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+.customer__content {
+    width: 340px;
+    padding: 30px;
+}
+
+.customer__reviews {
+    height: 50px;
+}
+
+.customer__card-red {
+    border:2px solid #f53855;
+}
+
+.customer__reviews {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer__paragraph {
+    margin-top: 20px;
+}
+
+.customer__paragraph p {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #0b132a;
+}
+
+h6 {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0b132a;
+}
+
+ .customer__name p {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.customer__grade {
+    display: flex;
+    align-items: center;
+}
+
+
+
