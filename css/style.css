@@ -118,19 +118,21 @@ p span {
     line-height: 30px;
 }
 
-.lasles__btn {
+.lasles__button {
     margin-top: 50px;
+    width: 250px;
+    height: 60px;
+    background-color: #f53855;
+    border-radius: 10px;
 }
 
-.lasles__btn {
+.lasles__btn-red {
     font-family: "Rubik";
     font-weight: 700;
     font-size: 16px;
     line-height: 25px;
-    color: #fff;
-    background-color: #f53855;
+    color: #fff;  
     padding: 17.5px 77.5px;
-    border-radius: 10px;
 }
 
 .lasless__img{
@@ -151,7 +153,7 @@ p span {
     justify-content: space-between;
     padding: 37.21px 90.5px;
     border-radius: 10px;
-    box-shadow: 0px 16px 32px -6px  rgba(10, 0, 40, 0.053), 0px 8px 16px -3px  rgba(7, 0, 28, 0.087), 0px 4px 8px -1px  rgba(7, 0, 28, 0.081); 
+    box-shadow: 0px 16px 32px -6px rgba(10, 0, 40, 0.053), 0px 8px 16px -3px rgba(7, 0, 28, 0.087), 0px 4px 8px -1px rgba(7, 0, 28, 0.081); 
 }
 
 .statistics__cards {
@@ -354,6 +356,7 @@ p span {
     font-size: 16px;
     line-height: 100%;
     color: #f53855;
+    text-align: center;
 }
 
 .plan__btn button {
@@ -368,7 +371,7 @@ p span {
 
 /* SECTION NETWORK */
 .network {
-    margin-top: 150px;
+    margin: 150px 0 124px;
 }
 
 .network__title {
@@ -397,8 +400,13 @@ p span {
     height: 60px;     
 }
 
+/* SECTION CUSTOMER */
+.customer {
+    margin-bottom: 180px;   
+}
+
 .customer__body {
-    margin-top: 50px;
+    position: relative;
 }
 
 .customer__title {
@@ -418,7 +426,6 @@ p span {
     display: flex;
     justify-content: space-between;
 }
-
 
 .customer__card {   
     border-radius: 10px;
@@ -474,6 +481,149 @@ h6 {
     display: flex;
     align-items: center;
 }
+
+.customer__sliders {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.customer__sliders-left {
+   display: flex;
+   column-gap: 15px;
+   align-items: center;  
+}
+
+.customer__btn {
+    display: flex;
+    gap: 20px;
+}
+
+.customer__btn-red {
+    width: 60px;
+    height: 60px;
+    background-color: #f53855;
+    border-radius: 50px;
+    position: relative;
+}
+
+.customer__btn-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);      
+}
+
+.customer__special {
+    width: 1140px;
+    padding: 58.5px 70px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 16px 32px -6px rgba(10, 0, 40, 0.053), 0px 8px 16px -3px rgba(7, 0, 28, 0.087), 0px 4px 8px -1px rgba(7, 0, 28, 0.081); 
+    position: absolute;
+    top: 690px;   
+    z-index: 1;
+}
+
+.customer__special-title {
+    width: 371px;
+}
+
+.customer__special-subtitle {
+    margin-top: 20px;
+}
+
+.customer__special-red {
+    margin: auto 0;   
+    width: 250px;
+    height: 60px;
+    background-color: #f53855;
+    border-radius: 10px;
+}
+
+.customer__special-btn {
+    padding: 17.5px 65px;
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #fff;
+}
+
+/* FOOTER */
+.footer {
+   background-color: #f8f8f8; 
+}
+.footer__body {
+    padding: 180px 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo a {
+    display: flex;
+    column-gap: 10px;
+}
+
+.footer__paragraf {
+    width: 340px;
+    margin-top: 20px;
+}
+
+.footer__icons {
+    margin: 30px 0px;
+    display: inline-block;    
+}
+
+.footer__copiright p {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #afb5c0;
+}
+
+.footer__copiright span {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.footer__links {
+    display: flex;
+    column-gap: 126px;
+}
+
+.footer__links-title p { 
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0b132a;
+}
+
+.footer__item-links {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;    
+}
+
+.footer__item-links li {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4f5665;
+}
+
+
+
+
+
 
 
 
